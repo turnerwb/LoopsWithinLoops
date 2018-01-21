@@ -155,7 +155,10 @@ def run_test_sum_numbers():
     print('Expected and actual are:', expected, answer)
 
     # TO DO 3 (continued): Add your ADDITIONAL test(s) here:
-
+    # Test 3:
+    expected = 5
+    answer = sum_numbers(([1], [3], [1]))
+    print('Expected and actual are:', expected, answer)
 
 def sum_numbers(seq_seq):
     """
